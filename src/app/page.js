@@ -1,14 +1,11 @@
-export default function Page() {
-  return <h1>IT WORKS</h1>;
-}
-/**'use client';
+'use client';
 
 
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
 import { useState } from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "@/app/components/Navbar";
 
 export default function Home() {
   const [show, setShow] = useState(false);
@@ -66,4 +63,4 @@ export default function Home() {
     </div>
     
   );
-}**/
+}
