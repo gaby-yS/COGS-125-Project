@@ -1,4 +1,11 @@
-import { Geist, Geist_Mono, Host_Grotesk, Merriweather} from "next/font/google";
+export default function RootLayout({ children }) {
+  return (
+    <html>
+      <body>{children}</body>
+    </html>
+  );
+}
+/**import { Geist, Geist_Mono, Host_Grotesk, Merriweather} from "next/font/google";
 import "./globals.css";
 
 
@@ -33,4 +40,4 @@ export default function RootLayout({ children }) {
       <body>{children}</body>
     </html>
   );
-}
+}**/
