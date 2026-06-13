@@ -1,0 +1,16 @@
+'use client';
+
+
+import Image from "next/image";
+import styles from "./page.module.css";
+import Link from "next/link";
+import { useState } from "react";
+import Navbar from "./components/Navbar";
+
+export default function Home() {
+  const [show, setShow] = useState(false);
+  return (
+    <div>
+    <Navbar />
+    </div>);
+}
