@@ -1,4 +1,6 @@
-'use client';
+export default function Page() {
+  return <h1>HOME WORKS</h1>;
+}/**'use client';
 
 
 import Image from "next/image";
@@ -63,4 +65,4 @@ export default function Home() {
     </div>
     
   );
-}
+}**/
