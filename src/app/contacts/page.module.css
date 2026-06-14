@@ -1,0 +1,83 @@
+.page {
+  --background: #fafafa;
+  --foreground: #fff;
+
+  --text-primary: #000;
+  --text-secondary: #666;
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+  --button-secondary-border: #ebebeb;
+
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-geist-sans);
+  background-color: var(--background);
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  max-width: 800px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: var(--foreground);
+  padding: 120px 60px;
+}
+.allProject{
+  display: flex;
+  align-items: center;
+} 
+
+.projectSection{
+  display: flex;
+  gap: 20px;
+  max-width: 720px;
+  flex-direction: column;
+  padding: 20px 70px;
+  align-items: flex-start;
+
+}
+
+.image {
+  width: 100%;
+  max-width: 720px;   /* keeps it from getting too big */
+  height: auto;       /* keeps proportions */
+  border-radius: 20px; /* makes it circular */
+  display: block;
+  margin: 0 auto;     /* center it */
+}
+
+.projectTitle{
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 24px;
+  color: #FCF3DE;
+}
+
+.description{
+  color: #FCF3DE;
+  font-family: "Host Grotesk";
+  font-size: 18px;
+  font-weight: 200;
+  
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #fafafa;
+  color: #161716;
+  font-family: "Host Grotesk";
+  font-weight: 400;
+  transition: background-color 0.2s ease;
+}
+
